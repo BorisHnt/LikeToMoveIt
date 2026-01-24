@@ -155,7 +155,7 @@ class MouseMoverApp:
             msg = (
                 "Impossible de charger pyautogui.\n"
                 f"Erreur: {pyautogui_error}\n\n"
-                "Assurez-vous de lancer le programme depuis une session graphique "
+                "Assurez-vous de lancer le programme depuis une session graphique"
                 "(DISPLAY/Xauthority) et sans sudo."
             )
         messagebox.showerror("PyAutoGUI indisponible", msg)

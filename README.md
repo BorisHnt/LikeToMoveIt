@@ -68,9 +68,20 @@ python -m pip install -r requirements.txt
 
 Tkinter est inclus avec la plupart des distributions Python standard. PyAutoGUI est installe via `requirements.txt`.
 
+### Variante PySide6 (optionnelle)
+Si vous souhaitez utiliser la version PySide6 (`LikeToMoveIt-Pyside6.py`), installez aussi PySide6 :
+```bash
+python -m pip install pyside6
+```
+
 ## Utilisation
 ```bash
 python LikeToMoveIt.py
+```
+
+Pour la version PySide6 :
+```bash
+python LikeToMoveIt-Pyside6.py
 ```
 
 Choisissez la durée en minutes, cliquez sur Démarrer, puis le pointeur se déplace légèrement de manière aléatoire tant que le minuteur tourne. Cliquez sur Arrêt ou mettez le pointeur dans le coin supérieur gauche (fail-safe PyAutoGUI) pour interrompre.
